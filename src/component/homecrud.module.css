@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(163, 198, 8);
+    justify-content: space-between
+    
+}
+.sub{
+    border: 1px solid red;
+    height: 50px;
+    background-color: aquamarine;
+    font-size:x-large;
+    line-height: 240%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    border-radius: 30px;
+    color: orange;
+    
+
+}
+.sub:hover{
+    border: 1px solid red;
+    height: 50px;
+    background-color: rgb(238, 30, 30);
+    font-size: 20px;
+    line-height: 240%;
+    padding: 20px;
+    border-radius: 30px;
+    
+
+}
+
+@media (max-width:800px){
+    #nav{
+        flex-direction: row;
+    }
+
+}
